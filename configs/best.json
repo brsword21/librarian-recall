@@ -1,0 +1,29 @@
+{
+ "round": "r4",
+ "routes": {
+  "ssu": {
+   "lens": "lenses/ssu/merged_r4.py",
+   "variant": "r4"
+  },
+  "ssa": {
+   "lens": "lenses/ssa/a_recsent.py",
+   "variant": "r2_conf2"
+  },
+  "multi": {
+   "lens": "lenses/multi/merged_r4.py",
+   "variant": "r4"
+  },
+  "ku": {
+   "lens": "lenses/ku/merged_r4.py",
+   "variant": "r4"
+  },
+  "temporal": {
+   "lens": "lenses/temporal/a_r3_gap.py",
+   "variant": "span_own"
+  }
+ },
+ "fallback": {
+  "lens": "lenses/generic.py",
+  "variant": "hybrid_rr"
+ }
+}

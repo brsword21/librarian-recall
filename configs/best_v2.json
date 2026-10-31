@@ -1,0 +1,39 @@
+{
+ "round": "r3",
+ "routes": {
+  "ssu": {
+   "lens": "lenses/ssu/a_r3_route.py",
+   "variant": "kg3crga",
+   "params": {
+    "ssu_lens": "lenses/ssu/merged_r3.py",
+    "ssu_variant": "ku11fn4s_p5",
+    "role_module": "lenses/ssa/a_r3_role.py",
+    "ku_lens": "lenses/ku/a_r3.py",
+    "ku_variant": "r3w"
+   }
+  },
+  "ssa": {
+   "lens": "lenses/ssa/a_recsent.py",
+   "variant": "r2_conf2"
+  },
+  "multi": {
+   "lens": "lenses/multi/merged_r2.py",
+   "variant": "tight_role9",
+   "params": {
+    "role_module": "lenses/ssa/a_r3_role.py"
+   }
+  },
+  "ku": {
+   "lens": "lenses/ku/a_r3.py",
+   "variant": "r3w"
+  },
+  "temporal": {
+   "lens": "lenses/temporal/a_r3_gap.py",
+   "variant": "span_own"
+  }
+ },
+ "fallback": {
+  "lens": "lenses/generic.py",
+  "variant": "hybrid_rr"
+ }
+}
