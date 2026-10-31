@@ -19,7 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-This license covers the team's own code and documents. It does not cover the organisers' kit
-(github.com/RxAI-dev/memory-challenge, imported at runtime, not included), the data excerpts in runs/ and
-demo/replay.json (see README, "Data and licences"), or the fonts in demo/*/fonts (SIL OFL 1.1, see OFL.txt there).
