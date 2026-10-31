@@ -152,12 +152,18 @@ Each lens file's docstring records what it changes and what it measured. These a
 system, unchanged except for import paths. Rebuilding the challenge test packs with this repository reproduces all
 146 submitted packs exactly: same passages, notes, routes and citation plans.
 
+## Business use case, and why it is open source
+
+Any assistant with long-lived memory needs this layer: customer support, coaching, health, sales, personal agents. It
+has to answer from months of history:
+- **cheaply:** it reads about 0.2% of the archive per question, on two small local models;
+- **verifiably:** every answer carries its source sessions;
+- **safely:** when the fact is not in the history, the pack says so, so the model does not have to guess.
+
+That is a real business case, and we may build on it. We still prefer to share the code with the community: memory for
+assistants should be inspectable, and others can improve and reuse it. Librarian Recall is open source under the MIT
+license.
+
 ## License
 
-**PolyForm Noncommercial 1.0.0** ([LICENSE](LICENSE)). The license allows:
-- research, evaluation, personal projects, teaching;
-- use by noncommercial organisations.
-
-**Commercial use needs a commercial license from us.** That covers using Librarian in a product or a paid service, or
-inside a company. To get one, open an issue titled "Commercial license" in this repository. Third-party components
-and their licenses are listed in [NOTICE.md](NOTICE.md).
+[MIT](LICENSE). Third-party components keep their own licenses; they are listed in [NOTICE.md](NOTICE.md).

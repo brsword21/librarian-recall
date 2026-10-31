@@ -1,7 +1,7 @@
 # Third-party components
 
-Librarian Recall's own code is under the PolyForm Noncommercial License 1.0.0 (see LICENSE). It uses, but does not
-include, the following components. Each keeps its own license.
+Librarian Recall's own code is under the MIT license (see LICENSE). It uses, but does not include, the following
+components. Each keeps its own license.
 
 | Component | Use | License |
 |---|---|---|
